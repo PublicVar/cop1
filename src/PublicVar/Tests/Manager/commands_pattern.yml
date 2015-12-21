@@ -1,0 +1,5 @@
+commands:
+    create_user:
+        structure: "useradd @username"
+        super_user: true
+        keywords: "create user"
