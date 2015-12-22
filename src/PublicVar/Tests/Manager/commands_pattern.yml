@@ -4,3 +4,5 @@ commands:
         description: "Create a linux user"
         super_user: true
         keywords: "create user"
+        username:
+            description: linux username
