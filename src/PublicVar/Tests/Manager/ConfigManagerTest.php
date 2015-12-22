@@ -38,6 +38,7 @@ class ConfigManagerTest extends \PHPUnit_Framework_TestCase
         $expected = array(
           'create_user' => array(
             'structure' => 'useradd @username',
+            'description'=> 'Create a linux user',
             'super_user' => true,
             'keywords' => 'create user'
           )
