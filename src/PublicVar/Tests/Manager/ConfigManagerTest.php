@@ -41,7 +41,9 @@ class ConfigManagerTest extends \PHPUnit_Framework_TestCase
             'description'=> 'Create a linux user',
             'super_user' => true,
             'keywords' => 'create user',
-            'username'=>array('description' => 'linux username')
+            'arguments'=>array(
+                'username'=>array('description' => 'linux username')
+            )
           )
         );
         $result = $configManager->getCommands();

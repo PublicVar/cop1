@@ -53,5 +53,19 @@ class BaseCommand extends Command
         $this->keywords = $keywords;
         return $this;
     }
+    
+    public function getOptions()
+    {
+        return $this->options;
+    }
+
+    public function setOptions($options)
+    {
+        $this->options = $options;
+        return $this;
+    }
+
+
+    
 
 }
